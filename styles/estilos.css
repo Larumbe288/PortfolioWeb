@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:100vh;
+    height: 100vh;
 }
 
 .navigation__checkbox {
@@ -216,4 +216,30 @@ body {
 .navigation__checkbox:checked+.navigation__button .navigation__icon::after {
     top: 0;
     transform: rotate(-135deg);
+}
+
+.about {
+    margin-top: 10vh;
+    height: 90vh;
+}
+
+#aboutFoto {
+    height: 35vh;
+    margin: 0 auto;
+    margin-top: 7vh;
+    display: block;
+    border-radius: 6000px;
+    box-shadow: 0 10px 15px -5px #3d3d3d;
+}
+.articulos {
+    height: 90vh;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 70vh; */
+}
+.articulo {
+    margin-top: 20px;
 }
