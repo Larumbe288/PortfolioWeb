@@ -1,5 +1,6 @@
 body {
     background-color: lightsalmon;
+    scroll-snap-type: y mandatory; 
 }
 
 .portada h1 {
@@ -32,6 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    scroll-snap-align: start; 
 }
 
 .navigation__checkbox {
@@ -221,6 +223,7 @@ body {
 .about {
     /* margin-top: 25vh; */
     height: 100vh;
+    scroll-snap-align: start;
 }
 
 #aboutFoto {
@@ -233,6 +236,7 @@ body {
 }
 .articulos {
     height: 100vh;
+    scroll-snap-align: start; 
 }
 .articulos h3 {
     margin-left: 5vw;
