@@ -1,5 +1,5 @@
 body {
-    background-color: #ffa07a;
+    background-color: #9DC0BC;
     scroll-snap-type: y mandatory;
 }
 
@@ -244,6 +244,10 @@ body {
     margin-left: 5vw;
 }
 
+.articulo {
+     margin-top: 15vh; 
+}
+
 #articulo1 {
     /* calcular para que llegue hasta el final del otro div mediante js */
 }
@@ -254,5 +258,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(38, 30, 56);
+    background: #261e38;
+}
+#bootArticle {
+    margin-bottom: 5vh;
+}
+.img-card-top {
+    transform:scale(0.5);
 }
