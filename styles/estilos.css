@@ -1,6 +1,6 @@
 body {
-    background-color: lightsalmon;
-    scroll-snap-type: y mandatory; 
+    background-color: #ffa07a;
+    scroll-snap-type: y mandatory;
 }
 
 .portada h1 {
@@ -33,7 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    scroll-snap-align: start; 
+    scroll-snap-align: start;
 }
 
 .navigation__checkbox {
@@ -234,18 +234,25 @@ body {
     border-radius: 6000px;
     box-shadow: 0 10px 15px -5px #3d3d3d;
 }
+
 .articulos {
     height: 100vh;
-    scroll-snap-align: start; 
+    scroll-snap-align: start;
 }
+
 .articulos h3 {
     margin-left: 5vw;
 }
-.card {
+
+#articulo1 {
+    /* calcular para que llegue hasta el final del otro div mediante js */
+}
+
+footer {
+    height: 33vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.articulo {
-    margin-top: 20px;
+    background: rgb(38, 30, 56);
 }
