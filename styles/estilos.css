@@ -245,7 +245,7 @@ body {
 }
 
 .articulo {
-     margin-top: 15vh; 
+    height: 100vh;
 }
 
 #articulo1 {
@@ -260,9 +260,34 @@ footer {
     align-items: center;
     background: #261e38;
 }
+
 #bootArticle {
     margin-bottom: 5vh;
 }
+
 .img-card-top {
-    transform:scale(0.5);
+    transform: scale(0.5);
+}
+
+@media (max-width: 992px) {
+    .margenArticulos {
+        margin-top: 15vh;
+    }
+
+    #articulo1 {
+        margin-top: 7.5vh;
+    }
+}
+
+#articles {
+    margin-left: 3vw;
+}
+
+@media (min-width: 992px) {
+    .column {
+        flex: 33.33%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
 }
