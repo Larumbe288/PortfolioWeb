@@ -1,0 +1,33 @@
+body {
+    background-image: url(placabase.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#procesador {
+    transition: all 4s;
+}
+
+#procesador:hover {
+    transform: translateY(-325px) translateX(450px) rotate(53deg) scale(0.7);
+}
+
+#ram {
+    transition: all 4s;
+}
+
+#ram:hover {
+    transform: translateX(38px) translateY(-502px) rotate(-15deg) scale(2);
+}
+
+#grafica {
+    transition: all 4s;
+}
+
+#grafica:hover {
+    transform: translateX(1010px) translateY(-600px) rotate(-40deg) scale(2);
+}
+
+#fuente {
+    transform: scale(0.3);
+}

@@ -1,0 +1,21 @@
+.img1 {
+    opacity: 0.2;
+    transition: opacity 3s;
+}
+
+.img1:hover {
+    opacity: 1;
+}
+.img2 {
+    transition: transform 4s;
+}
+.img2:hover {
+    transform: scale(1.3);
+    transform-origin: left top;
+}
+/* .img3 {
+
+}
+.img3:hover {
+    
+} */

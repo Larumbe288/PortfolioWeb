@@ -1,0 +1,34 @@
+.planos {
+    width: 100%;
+    height: 1800px;
+}
+
+.planos>div {
+    width: 100%;
+    height: 1800px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.plano1 {
+    background: url(plano1.png);
+
+}
+
+.plano2 {
+    background: url(plano2.png);
+}
+
+.plano3 {
+    background: url(plano3.png);
+}
+
+.plano4 {
+    background: url(plano4.png);
+}
+
+.plano5 {
+    background: url(plano5.png);
+    background-color: #22280b;
+}

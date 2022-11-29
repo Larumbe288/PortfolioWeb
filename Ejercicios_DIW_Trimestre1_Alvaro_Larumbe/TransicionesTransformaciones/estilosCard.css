@@ -1,0 +1,45 @@
+.ampliar {
+    background-image: url(imgCard/imgCard1.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    margin-left: 0px;
+    background-size: 600px 600px;
+    background-position: center center;
+    transition: background-size 3s;
+    border-radius: 15px;
+    float: left;
+}
+
+.ampliar:hover {
+    background-size: 800px 800px;
+}
+
+.ampliar h5,
+.ampliar p,
+.ampliar input {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    margin-left: 10%;
+}
+
+.abajo {
+    float: right;
+    background-image: url(imgCard/imgCard1.jpg);
+    width: 600px;
+    height: 600px;
+}
+
+.abajo > .oculto {
+    opacity: 0;
+    transition: all 4s;
+    color:rgb(44, 9, 168);
+    height: 600px;
+    width: 600px;
+}
+
+.oculto :hover {
+    opacity: 1;
+    translate: 25px -5px;
+}

@@ -1,0 +1,27 @@
+.carta {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carta>div {
+    width: 2.5in;
+    height: 3.5in;
+}
+
+#new .reverso {
+    background: url(reverso.png);
+    background-size: cover;
+}
+
+#new .inverso {
+    background: url(7bastos.png);
+    background-size: cover;
+}
+
+.inverso {
+    z-index: 1;
+}
+
+.carta:hover .inverso {
+    z-index: 0;
+}

@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#cubo {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    perspective: 1000px;
+    perspective-origin: 100%;
+}
+
+#cubo:hover>#right {
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+#cubo:hover>#left {
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+
+#cubo:hover>#down {
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+#cubo:hover>#up {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+#cubo:hover>#back {
+    transform: rotateY(180deg);
+    transform: translateZ(200px);
+    transform: translateX(400px);
+    transform-origin: right;
+}
+
+#cubo:hover>#front {
+    opacity: 0.5;
+}
+
+#cubo>div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+#front {
+    background-color: red;
+    left: 400px;
+    top: 200px;
+}
+
+#back {
+    left: 0px;
+    top: 200px;
+    background-color: yellow;
+}
+
+#left {
+    left: 200px;
+    top: 200px;
+    background-color: green;
+}
+
+#right {
+    left: 600px;
+    top: 200px;
+    background-color: salmon;
+}
+
+#up {
+    top: 0px;
+    left: 400px;
+    background-color: brown;
+}
+
+#down {
+    left: 400px;
+    top: 400px;
+    background-color: blue;
+}

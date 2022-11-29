@@ -1,0 +1,46 @@
+.colorLink:active,
+.colorLink,
+.colorLink:visited,
+.colorLink:hover {
+color: #c0bab6;
+text-decoration: none;
+}
+figcaption>h2,figcaption>p {
+    font-style:italic;
+}
+header {
+    background-color: #333333;
+}
+figure>img {
+    border: solid;
+    border-width: 1px;
+    padding: 3px;
+    border-color:#d6d6d6;
+}
+body {
+    font-family:'URW Antiqua Regular Condensed';
+    src: url(URW-Antiqua-SC-T-OT-Regular-Condensed_46535.ttf);
+    color:#c0bab6;
+}
+#pie {
+    background-color: #232323;
+    color: #919191;
+}
+#separador {
+    background-color: #333333;
+}
+.alinear {
+    padding-left: 12px;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > ul > li {
+    background-color: #232323;
+}
+.logos > h2 {
+    font-size: larger;
+}
+.gris, .gris:hover {
+    color: #c0bab6;
+}

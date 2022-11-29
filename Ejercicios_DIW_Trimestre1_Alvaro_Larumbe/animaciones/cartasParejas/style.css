@@ -1,0 +1,99 @@
+.baraja {
+    width: 10in;
+    /* height: 100%; */
+}
+
+.carta {
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 2.5in;
+    height: 3.5in;
+    /*transition: all 0.5s;*/
+}
+
+.carta>div {
+    /* opacity: 0.7; */
+    width: 2.5in;
+    height: 3.5in;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carta {
+    opacity: 0.7;
+}
+
+.reverso {
+    z-index: 1;
+    transition: all 0.5s;
+
+}
+
+.anverso {
+    z-index: 0;
+    transition: all 0.5s;
+}
+
+.reverso {
+    background-image: url(resverso.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+*[name="bastos"] .anverso {
+    background-image: url(bastos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.carta:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.carta.girada:hover .anverso {
+    z-index: 10;
+}
+
+.carta.girada:hover .reverso {
+    z-index: 0;
+}
+
+
+
+.girada {
+    opacity: 1;
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.girada .anverso {
+    z-index: 10;
+    opacity: 1;
+}
+
+.girada .reverso {
+    z-index: 0;
+    opacity: 1;
+}
+
+.carta.girada:hover {
+    cursor: default;
+}
+
+.correcta {
+    border: 4px dotted green;
+    border-radius: 15px;
+}
+*[name="copas"] .anverso {
+    background-image: url(copas.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+*[name="oros"] .anverso {
+    background-image: url(oros.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

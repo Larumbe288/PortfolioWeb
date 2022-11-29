@@ -1,0 +1,23 @@
+body {
+    font-family: "Times New Roman";
+}
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+#linksNav {
+    background-color: #232323;
+}
+#linksNav>ul>li>a:active,#linksNav>ul>li>a,#linksNav>ul>li>a:visited {
+color: #C0BAB6;
+text-decoration: none;
+}
+figcaption>h2,figcaption>p {
+    font-style:italic;
+}
+#navegador {
+    background-color: #333333;
+}
+article figure {
+    margin: 0 auto;
+}
